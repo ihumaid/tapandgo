@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="589.0" prefWidth="775.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mv.port.harbour_tapngo.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Pane prefHeight="77.0" prefWidth="735.0">
+        <children>
+            <Label layoutX="14.0" layoutY="32.0" text="Select Printer" />
+            <ChoiceBox fx:id="printerChoiceBox" layoutX="91.0" layoutY="28.0" prefWidth="150.0" />
+            <Button fx:id="printerRefreshButton" layoutX="251.0" layoutY="28.0" mnemonicParsing="false" onAction="#onPrinterRefreshButtonClick" text="Refresh" />
+            <Label layoutX="497.0" layoutY="32.0" text="Select Gate" />
+            <ChoiceBox fx:id="gateChoiceBox" layoutX="571.0" layoutY="28.0" prefWidth="150.0" />
+        </children>
+    </Pane>
+
+    <TextArea fx:id="logText" prefHeight="132.0" prefWidth="735.0" />
+    <Label fx:id="progressLabel" text="Progress Label" textAlignment="CENTER" />
+    <ProgressIndicator fx:id="progressBar" prefWidth="100.0" visible="false" />
+          <Button fx:id="payButton" onAction="#onPayButtonClick" prefHeight="50.0" prefWidth="157.0" text="Tap to Pay">
+      <font>
+         <Font name="System Bold" size="14.0" />
+      </font>
+   </Button>
+
+    <Pane prefHeight="97.0" prefWidth="709.0">
+      <children>
+          <Button fx:id="testButton" layoutX="349.0" layoutY="2.0" onAction="#ontestButtonClick" text="Test" />
+      </children>
+    </Pane>
+
+
+</VBox>
