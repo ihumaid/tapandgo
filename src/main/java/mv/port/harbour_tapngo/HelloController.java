@@ -162,7 +162,7 @@ public class HelloController implements Initializable {
                     {
                         logger.error("Must be a communication failure!");
                         setLogText("Must be a communication failure!");
-                        // TODO update ui, report error
+                        return;
                     }else if (HandleResponseCode(result) < 0){
                         BeepIt(1700,100);
                         BeepIt(1500,300);
@@ -192,7 +192,7 @@ public class HelloController implements Initializable {
 
                     // http post
                     Retrofit retrofit = new Retrofit.Builder()
-                            .baseUrl("http://harbour-master.mpltest/")
+                            .baseUrl("http://harbour-master.mpltest/") // TEST
                             .addConverterFactory(GsonConverterFactory.create())
                             .build();
 

@@ -11,7 +11,7 @@ public interface HarbourService{
 
     @Headers({
             "Accept: application/json",
-            "Authorization: Bearer 3|GyOGWxqrqwYRe4comuaiFJfssliDxzug80W7ozOC9503b071",
+            "Authorization: Bearer 3|GyOGWxqrqwYRe4comuaiFJfssliDxzug80W7ozOC9503b071", // TEST
             "App-Location-Id: 2"
     })
     @POST("api/pos/create-sticker")

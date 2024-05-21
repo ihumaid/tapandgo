@@ -2,47 +2,35 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="harbour_tapngo" />
+      <artifact name="harbour_tapngo:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="baf7b600-1e1d-46e3-a87d-3977891525a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/harbour_tapngo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecrlib_globalpay/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ecrlib_globalpay/ecrlib.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HarbourService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/SamplesCommon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/Sticker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/StickerResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mv/port/harbour_tapngo/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mv/port/harbour_tapngo/images/barrier.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mv/port/harbour_tapngo/images/mpl_logo.png" afterDir="false" />
+    <list default="true" id="baf7b600-1e1d-46e3-a87d-3977891525a8" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/harbour_tapngo_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/harbour_tapngo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HarbourService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HarbourService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mv/port/harbour_tapngo/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,10 +57,13 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.HelloApplication.executor": "Run",
+    "Application.Main.executor": "Run",
     "Maven.harbour_tapngo [clean].executor": "Run",
     "Maven.harbour_tapngo [compile].executor": "Run",
     "Maven.harbour_tapngo [deploy].executor": "Run",
     "Maven.harbour_tapngo [install].executor": "Run",
+    "Maven.harbour_tapngo [jar:jar].executor": "Run",
+    "Maven.harbour_tapngo [javafx:run].executor": "Run",
     "Maven.harbour_tapngo [org.apache.maven.plugins:maven-clean-plugin:2.5:clean].executor": "Run",
     "Maven.harbour_tapngo [org.apache.maven.plugins:maven-install-plugin:2.4:install].executor": "Run",
     "Maven.harbour_tapngo [org.apache.maven.plugins:maven-jar-plugin:2.4:jar].executor": "Run",
@@ -89,7 +80,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.31839082",
     "settings.editor.selected.configurable": "build.tools",
@@ -103,6 +94,15 @@
       <recent name="C:\Users\humbu\IdeaProjects\escpos-coffee-samples\miscellaneous\harbour_tapngo\src\main\java\mv\port\harbour_tapngo" />
       <recent name="C:\Users\humbu\IdeaProjects\escpos-coffee-samples\miscellaneous\harbour_tapngo\src\main\java" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="javafx:run" />
+      <command value="mvn javafx:run" />
+      <command value="mvn jar:jar" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="HelloApplication" type="Application" factoryName="Application">
@@ -132,8 +132,18 @@
       <workItem from="1716095397284" duration="1391000" />
       <workItem from="1716096803618" duration="668000" />
       <workItem from="1716097654029" duration="3150000" />
-      <workItem from="1716101233073" duration="7747000" />
+      <workItem from="1716101233073" duration="13353000" />
+      <workItem from="1716198946432" duration="4179000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1716179500644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716179500644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,5 +153,7 @@
     <ignored-roots>
       <path value="$USER_HOME$" />
     </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
