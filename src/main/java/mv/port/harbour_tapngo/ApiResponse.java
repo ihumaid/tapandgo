@@ -4,6 +4,9 @@ import retrofit2.Response;
 
 import java.io.IOException;
 
+/**
+ * EXPERIMENTAL CLASS _ NOT USED
+ */
 public class ApiResponse<T> {
 
     public ApiResponse<T> create(Throwable error) {
